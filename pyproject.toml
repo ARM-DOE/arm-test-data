@@ -1,5 +1,5 @@
 [project]
-name = "open-radar-data"
+name = "act-test-data"
 description = """Provides utility functions for accessing data repository for openradar examples/notebooks"""
 requires-python = ">=3.9"
 license = {file = "LICENSE"}
