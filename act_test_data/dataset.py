@@ -7,7 +7,7 @@ DATASETS = pooch.create(
     env='ACT_TEST_DATA_DIR',
 )
 
-with pkg_resources.resource_stream('act-test-data', 'registry.txt') as registry_file:
+with pkg_resources.resource_stream('act_test_data', 'registry.txt') as registry_file:
     DATASETS.load_registry(registry_file)
 
 
