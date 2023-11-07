@@ -1,0 +1,14 @@
+include LICENSE
+include README.md
+
+recursive-include act_test_data *.py
+recursive-exclude * __pycache__
+recursive-exclude * data
+recursive-exclude * *.py[co]
+
+include *.md
+include *.toml
+include *.txt
+prune tests*
+prune ci*
+prune data*
