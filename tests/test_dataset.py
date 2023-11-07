@@ -10,5 +10,5 @@ def test_registry():
 
 def test_locate():
     p = locate()
-    assert 'act-test-data-data' in p
+    assert 'act-test-data' in p
     assert pathlib.Path(p)
