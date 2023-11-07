@@ -1,6 +1,6 @@
 import pathlib
 
-from open_radar_data import DATASETS, locate
+from act_test_data import DATASETS, locate
 
 
 def test_registry():
@@ -10,5 +10,5 @@ def test_registry():
 
 def test_locate():
     p = locate()
-    assert 'open-radar-data' in p
+    assert 'act-test-data-data' in p
     assert pathlib.Path(p)
