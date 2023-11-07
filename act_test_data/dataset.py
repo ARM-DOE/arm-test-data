@@ -2,12 +2,12 @@ import pkg_resources
 import pooch
 
 DATASETS = pooch.create(
-    path=pooch.os_cache('open-radar-data'),
-    base_url='https://github.com/openradar/open-radar-data/raw/main/data/',
+    path=pooch.os_cache('act-test-data'),
+    base_url='https://github.com/openradar/act-test-data/raw/main/data/',
     env='ACT_TEST_DATA_DIR',
 )
 
-with pkg_resources.resource_stream('open_radar_data', 'registry.txt') as registry_file:
+with pkg_resources.resource_stream('act-test-data', 'registry.txt') as registry_file:
     DATASETS.load_registry(registry_file)
 
 
