@@ -1,6 +1,6 @@
 import pathlib
 
-from act_test_data import DATASETS, locate
+from arm_test_data import DATASETS, locate
 
 
 def test_registry():

@@ -7,4 +7,4 @@ if __name__ == '__main__':
     here = pathlib.Path(os.path.dirname(__file__))
     data_dir = here / 'data'
 
-    pooch.make_registry(data_dir, here / 'act_test_data/registry.txt')
+    pooch.make_registry(data_dir, here / 'arm_test_data/registry.txt')
