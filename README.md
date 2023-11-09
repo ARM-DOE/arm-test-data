@@ -3,7 +3,7 @@
 [![PyPI Version](https://img.shields.io/pypi/v/arm-test-data.svg)](https://pypi.python.org/pypi/arm-test-data)
 [![Conda Version](https://img.shields.io/conda/vn/conda-forge/arm-test-data.svg)](https://anaconda.org/conda-forge/arm-test-data)
 
-A place to share radar data with the community, shared between the open radar packages
+A place to share atmospheric data with the community, shared throughout the Atmospheric Radiation Measurement user facility and beyond!
 
 ## Sample data sets
 
