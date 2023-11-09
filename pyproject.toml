@@ -1,7 +1,7 @@
 [project]
 name = "arm-test-data"
 description = """Provides utility functions for accessing data repository for openradar examples/notebooks"""
-requires-python = ">=3.9"
+requires-python = ">=3.8"
 license = {file = "LICENSE"}
 keywords = ["arm-test-data", "atmosphere", "meteorology"]
 authors = [
