@@ -1,7 +1,7 @@
 include LICENSE
 include README.md
 
-recursive-include act_test_data *.py
+recursive-include arm_test_data *.py
 recursive-exclude * __pycache__
 recursive-exclude * data
 recursive-exclude * *.py[co]

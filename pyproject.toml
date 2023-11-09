@@ -36,14 +36,14 @@ repository = "https://github.com/ARM-DOE/arm-test-data"
 tracker = "https://github.com/ARM-DOE/arm-test-data/issues"
 
 [tool.setuptools]
-packages = ["act_test_data"]
+packages = ["arm_test_data"]
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
 readme = {file = ["README.md"], content-type = "text/markdown"}
 
 [tool.setuptools_scm]
-write_to = "act_test_data/version.py"
+write_to = "arm_test_data/version.py"
 version_scheme = "post-release"
 local_scheme= "dirty-tag"
 fallback_version = "999"
