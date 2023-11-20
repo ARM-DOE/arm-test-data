@@ -119,7 +119,7 @@ These files are used as sample data in openradar examples/notebooks and are down
 To add a new dataset file, please follow these steps:
 
 1. Add the dataset file to the `data/` directory
-2. From the command line, run `python make_registry.py` script to update the registry file residing in `open_radar_data/registry.txt`
+2. From the command line, run `python make_registry.py` script to update the registry file residing in `arm-test-data/registry.txt`
 3. Commit and push your changes to GitHub
 
 ## Using datasets in notebooks and/or scripts
