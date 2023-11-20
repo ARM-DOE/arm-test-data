@@ -3,7 +3,7 @@ import pooch
 
 DATASETS = pooch.create(
     path=pooch.os_cache('arm-test-data'),
-    base_url='https://github.com/openradar/arm-test-data/raw/main/data/',
+    base_url='https://github.com/ARM-DOE/arm-test-data/tree/main/data',
     env='ACT_TEST_DATA_DIR',
 )
 
