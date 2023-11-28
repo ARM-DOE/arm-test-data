@@ -3,8 +3,8 @@ import pooch
 
 DATASETS = pooch.create(
     path=pooch.os_cache('arm-test-data'),
-    base_url='https://github.com/ARM-DOE/arm-test-data/tree/main/data/',
-    env='ACT_TEST_DATA_DIR',
+    base_url='https://github.com/ARM-DOE/arm-test-data/raw/main/data/',
+    env='ARM_TEST_DATA_DIR',
 )
 
 with pkg_resources.resource_stream('arm_test_data', 'registry.txt') as registry_file:
