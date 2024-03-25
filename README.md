@@ -41,6 +41,7 @@ These files are used as sample data in openradar examples/notebooks and are down
 - `sgp30ebbrE32.b1.20191130.000000.nc`
 - `sgp30ecorE14.b1.20190601.000000.cdf`
 - `sgpaerich1C1.b1.20190501.000342.nc`
+- `sgpaosacsmE13.b2.20230420.000109.nc`
 - `sgpaosccn2colaE13.b1.20170903.000000.nc`
 - `sgpbrsC1.b1.20190705.000000.cdf`
 - `sgpceilC1.b1.20190101.000000.nc`
