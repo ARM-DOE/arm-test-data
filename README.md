@@ -11,6 +11,8 @@ These files are used as sample data in openradar examples/notebooks and are down
 
 - `201509021500.bi`
 - `AAFNAV_COR_20181104_R0.ict`
+- `AMF_US-CU1_BASE_HH_1-5.csv`
+- `AMF_US-CU1_BIF_20250318.xlsx`
 - `NEON.D18.BARR.DP1.00002.001.000.010.001.SAAT_1min.2022-10.expanded.20221107T205629Z.csv`
 - `NEON.D18.BARR.DP1.00002.001.sensor_positions.20221107T205629Z.csv`
 - `NEON.D18.BARR.DP1.00002.001.variables.20221201T110553Z.csv`
@@ -177,3 +179,10 @@ locate()
 
 The location can be overwritten by the `ACT_TEST_DATA_DIR` environment
 variable to the desired destination.
+
+## References
+
+### Ameriflux data
+
+AmeriFlux BASE: https://doi.org/10.17190/AMF/2531143
+Citation: Bhupendra Raut, Sujan Pal, Paytsar Muradyan, Joseph R. O'Brien, Max Berkelhammer, Matthew Tuftedal, Max Grover, Scott Collis, Robert C. Jackson (2025), AmeriFlux BASE US-CU1 UIC Plant Research Laboratory Chicago, Ver. 1-5, AmeriFlux AMP, (Dataset). https://doi.org/10.17190/AMF/2531143
