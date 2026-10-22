@@ -53,7 +53,7 @@ jobs:
       - name: Install package
         run: |
           python -m pip install -e . --no-deps --force-reinstall
-          conda list
+          micromamba list
 
       - name: Run tests
         run: |
